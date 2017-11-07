@@ -1,0 +1,63 @@
+.section-header nav
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    text-align: center
+    height: 10%
+    background-color: #ffffff
+    opacity: 0.6
+    box-sizing: border-box
+    padding-top: 1.5%
+ul.nav li
+    display: inline-block
+    list-style: none
+    padding-right: 50px
+    opacity: 1
+ul.nav li a
+    display: block
+    text-decoration: none
+    text-align: center
+    font-family: $font-familly-base 
+    font-weight: $font-base
+    color: $font-color-base
+    transition: ease
+ul.nav li a:hover
+    color: #f7c32d
+ul.nav .menu-icon
+    display: none
+a.center
+    font-size: $font-size-center
+
+@media (max-width: 768px)
+    ul.nav
+        padding: 0 3%
+    ul.nav li
+        display: none
+    ul.nav .menu-icon
+        display: block
+        float: left
+        font-size: $font-size-center
+    .navBar.responsive
+        height: 100%
+        opacity: 0.9
+        z-index: 3
+    ul.nav.responsive li
+        display: block
+        position: relative
+        float: none
+    ul.nav.responsive li a
+        text-align: center
+        padding: 3% 0 1% 8%
+    .header-sign1
+        display: none
+    .header-sign2
+        display: block !important
+        
+        
+    
+    
+    
+
+        
+        
