@@ -13,11 +13,11 @@ $(document).ready(function(){
     });
 
 
-$document.ready(function(){
+
     var divFooter = $("#divFooter").outerHeight() + 'px';
     $('#googleMap').css('height', divFooter);
     $('#black-right').css('height', divFooter);
-});
+
 
 $(window).on('resize', function(event){
     var divFooter = $("#divFooter").outerHeight() + 'px';
