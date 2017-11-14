@@ -2,13 +2,15 @@
     Funkcja utrzymuje jednakowa wysokosc obu kolumn
 */
 
-var divHeight = $('#buttons-img').height() + 'px';
-$('#white-column').css('height',divHeight);
-
-$(window).on('resize', function(event){
-    divHeight = $('#buttons-img').height() + 'px';
+$(document).ready(function(){
+  var divHeight = $('#buttons-img').height() + 'px';
     $('#white-column').css('height',divHeight);
 });
+
+  $(window).on('resize', function(event){
+        divHeight = $('#buttons-img').height() + 'px';
+        $('#white-column').css('height',divHeight);
+    });
 
 
 var divFooter = $("#divFooter").outerHeight() + 'px';
