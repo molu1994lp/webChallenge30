@@ -2,7 +2,7 @@
     Funkcja utrzymuje jednakowa wysokosc obu kolumn
 */
 
-$(document).ready(function(){
+$(window).on('load',function(){
     var divHeight = $('#buttons-img').height() + 'px';
     $('#white-column').css('height',divHeight);
 });
@@ -14,7 +14,7 @@ $(document).ready(function(){
     });
 
 
-$(document).ready(function(){
+$(window).on('load', function(){
     var divFooter = $("#divFooter").outerHeight() + 'px';
     $('#googleMap').css('height', divFooter);
     $('#black-right').css('height', divFooter);
